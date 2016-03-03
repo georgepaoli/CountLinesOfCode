@@ -6,7 +6,7 @@ A simple command line to read lines of code in a folder.
 CountLinesOfCode /path:"c:\temp" /pattern:*.txt
 ```
 
-# Result
+# Output
 ```go
 Searching in: c:\temp
 With pattern: *.txt
