@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5DA90CD5-B74D-4D18-9466-436A4437E14E}</ProjectGuid>
+    <ProjectGuid>{CD3CC9F2-F0D9-4396-90BA-97CEEFF9252D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CommandLineArgs</RootNamespace>
@@ -53,9 +53,6 @@
     <Compile Include="ParameterInformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringToValueType.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="project.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
